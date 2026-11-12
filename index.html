@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="assets/fonts/fonts.css">
 <link rel="stylesheet" href="vibe.css">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"СтройГрафик","description":"Ремонт квартир: график по неделям, фотоотчёт каждые 7 дней, смета в договоре, оплата по этапам, уборка после каждого этапа.","url":"https://example.com","image":"https://example.com/assets/og.jpg","telephone":"+7 900 000-00-00","address":{"@type":"PostalAddress","streetAddress":"ул. Баумана, 12","addressLocality":"Казань","addressCountry":"RU"},"areaServed":"Казань"}
+{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"СтройГрафик","description":"Ремонт квартир: график по неделям, фотоотчёт каждые 7 дней, смета в договоре, оплата по этапам, уборка после каждого этапа.","url":"https://example.com","image":"https://example.com/assets/og.jpg","address":{"@type":"PostalAddress","streetAddress":"ул. Баумана, 12","addressLocality":"Казань","addressCountry":"RU"},"areaServed":"Казань"}
 </script>
 <style>
   /* ---- тема: шесть цветов, два шрифта ------------------------------------ */
@@ -176,7 +176,7 @@
   .objects__pair figcaption { left: var(--v-3); right: var(--v-3); bottom: var(--v-3); }
   .objects__meta { margin-top: var(--v-3); font-size: var(--v-t-sm); color: var(--v-ink-soft); }
   .who { display: grid; grid-template-columns: 4.5rem 1fr; gap: var(--v-4); align-items: start; padding-top: var(--v-5); border-top: 1px solid var(--v-hair); }
-  .who__ava { width: 4.5rem; height: 4.5rem; border-radius: 50%; border: 1px dashed var(--v-hair-strong); display: grid; place-items: center; font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  .who__ava { width: 4.5rem; height: 4.5rem; border-radius: 50%; border: 1px solid var(--v-hair-strong); display: grid; place-items: center; font-size: var(--v-t-sm); font-weight: 600; letter-spacing: .04em; color: var(--v-ink-soft); }
   .who__name { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-lg); line-height: 1.15; }
   .who__role { margin-top: var(--v-1); font-size: var(--v-t-sm); color: var(--v-ink-soft); }
   .who__legal { margin-top: var(--v-2); font-size: var(--v-t-sm); color: var(--v-ink); }
@@ -422,11 +422,11 @@
             </ul>
           </div>
           <div class="who">
-            <div class="who__ava" aria-hidden="true"><span>фото</span></div>
+            <div class="who__ava" aria-hidden="true"><span>СВ</span></div>
             <div>
               <p class="who__name">Сергей Волков</p>
               <p class="who__role">Прораб, 12 лет в ремонте. Ведёт объект от осмотра до сдачи, его телефон у вас с первого дня.</p>
-              <p class="who__legal">ООО «СтройГрафик» · ИНН 0000000000</p>
+              <p class="who__legal">ООО «СтройГрафик» · реквизиты в договоре</p>
             </div>
           </div>
         </div>
@@ -489,13 +489,12 @@
             <p class="v-lede">Пришлите план квартиры и пожелания. Вернёмся со сметой и графиком по неделям.</p>
             <a class="v-btn" href="#raschet">Рассчитать ремонт</a>
             <div class="fin__meta">
-              <a class="fin__tel" href="tel:+79000000000">+7 (900) 000-00-00</a>
               <span>ул. Баумана, 12, Казань</span>
             </div>
           </div>
           <footer class="foot">
             <span>СтройГрафик · Казань · демо-версия: тексты, отзывы и контакты вымышлены</span>
-            <span>ООО «СтройГрафик» · ИНН 0000000000</span>
+            <span>ООО «СтройГрафик» · реквизиты в договоре</span>
             <span class="foot__more">Косметический, чистовой, черновой и капитальный ремонт квартир</span>
           </footer>
         </div>
